@@ -8,26 +8,23 @@
     android:orientation="vertical"
     android:background="#FE7E07">
 
-
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="195dp"
-        android:layout_height="130dp"
-        android:srcCompact="@drawable/read"
-        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
         android:layout_marginTop="50dp"
         app:srcCompat="@drawable/read" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LOGIN"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"/>
 
     <EditText
         android:id="@+id/editTextUsername"
@@ -35,9 +32,10 @@
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Fanggi"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#FFFFFF"
+        android:text="Username"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="16sp"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"/>
@@ -47,11 +45,12 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:ems="10"
-        android:inputType="text"
-        android:text="******"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#FFFFFF"
-        android:layout_marginTop="50dp"
+        android:inputType="textPassword"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"/>
 
@@ -60,22 +59,23 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
         android:backgroundTint="@color/white"
         android:textColor="#FE7E07"
+        android:textSize="16sp"
         android:textStyle="bold"
-        android:textSize="18sp" />
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
 
     <TextView
-        android:id="@+id/textRegister"
+        android:id="@+id/textViewRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Don't have an account? Register Here"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:text="Don't have an account? Register here"
+        android:textSize="16sp"
         android:textStyle="bold"
-        android:layout_marginTop="16dp" />
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
 
 </LinearLayout>

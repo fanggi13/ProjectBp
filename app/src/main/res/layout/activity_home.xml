@@ -54,7 +54,6 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        layout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -65,14 +64,14 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Books Kid" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -86,7 +85,7 @@
             android:text="Space" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -127,7 +126,7 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="dp"
+            android:layout_width="match_parent"
             android:layout_height="16dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"

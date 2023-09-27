@@ -9,9 +9,13 @@ class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
+       /*
         val imgCall:ImageView = findViewById<ImageView?>(R.id.imageView3).let {
+
            number->Intent ()
         }
-        startActivity(callIntent)
+
+        */
+       // startActivity(callIntent)
     }
 }
